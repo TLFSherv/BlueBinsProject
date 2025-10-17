@@ -1,1 +1,0 @@
-export const GOOGLE_MAPS_API = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCvTIispaj2hFgKtFxF2u5QyxMb16SZyIc&loading=async&callback=initSearch&libraries=places";
