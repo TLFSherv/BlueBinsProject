@@ -1,0 +1,81 @@
+ button {
+     color: #F3F6FB;
+     font-family: Lato;
+     letter-spacing: 2px;
+     border-radius: 14px;
+     /* background-image: linear-gradient(88deg, #3511FB, #4AA5F6); */
+     box-shadow: 2px 32px 24px rgba(74, 165, 256, 0.3);
+     cursor: pointer;
+ }
+
+ .inactive-btn {
+     color: black;
+     background-color: ghostwhite;
+     background-image: none;
+     cursor: auto;
+ }
+
+ .bar {
+     height: 8px;
+     width: 100%;
+     padding-bottom: 0px;
+     background-image: linear-gradient(93deg, rgba(59, 76, 201, 0.7), #4AA5F6);
+
+ }
+
+ /* Date wheel style */
+ .donut {
+     display: grid;
+     grid-template-rows: repeat(4, 1fr);
+     grid-template-columns: repeat(4, minmax(12px, 1fr));
+     place-items: center;
+     border-radius: 100%;
+     background-image: repeating-conic-gradient(rgba(24, 189, 255, 0) -30deg 30deg, rgba(24, 189, 255, 0.3) 30deg 90deg, rgba(0, 0, 0, 0.4) 90deg 150deg,
+             rgba(0, 0, 0, 0) 150deg 210deg, rgba(0, 0, 0, 0.2) 210deg 270deg, rgba(255, 0, 208, 0.32) 270deg 330deg);
+     color: white;
+     text-align: center;
+     font-family: sans-serif;
+ }
+
+ .donut-hole {
+     display: grid;
+     place-items: center;
+     border-radius: 100%;
+     background: linear-gradient(to right, #69B9FF, #A83CFA, #4554FD);
+     font-family: Lato;
+     color: black;
+     text-align: center;
+ }
+
+ .date1 {
+     grid-row: 1;
+     grid-column: 2 / span 2;
+ }
+
+ .date2 {
+     grid-row: 2;
+     grid-column: 4;
+     margin-left: -12px;
+ }
+
+ .date3 {
+     grid-row: 3;
+     grid-column: 4;
+     margin-left: -2px;
+ }
+
+ .date4 {
+     grid-row: 4;
+     grid-column: 2 / span 2;
+ }
+
+ .date5 {
+     grid-row: 3;
+     grid-column: 1;
+     margin-right: -4px;
+ }
+
+ .date6 {
+     grid-row: 2;
+     grid-column: 1;
+ }

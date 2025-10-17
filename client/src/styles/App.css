@@ -1,0 +1,45 @@
+/* Dropdown menu style */
+.autocomplete-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+    display: none;
+    /* Hidden by default */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Show the dropdown */
+.autocomplete-list.active {
+    display: block;
+}
+
+/* Style for each suggestion item with lines between them */
+.autocomplete-list li {
+    padding: 8px 12px;
+    cursor: pointer;
+    border-bottom: 1px solid #e0e0e0;
+    color: #032C49;
+}
+
+/* Remove the border from the last item */
+.autocomplete-list li:last-child {
+    border-bottom: none;
+}
+
+/* Hover/active state similar to Google's design */
+.autocomplete-list li:hover,
+.autocomplete-list li.active {
+    background-color: #f1f3f4;
+}
